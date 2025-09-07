@@ -14,16 +14,17 @@ This project is a machine learning application designed to classify news article
 ## ⚙️ Project Workflow
 
 The project follows these key steps:
-1.  **Data Loading & Initial Exploration**: The `News.csv` dataset is loaded into a pandas DataFrame. Unnecessary columns (`title`, `subject`, `date`) are dropped.
-2.  **Data Cleaning & Preprocessing**:
+1.  **Data Loading**- https://drive.google.com/file/d/1q5jpI5M1EA9x3YPrLupmiu3gffkmGlHj/view
+2.  **Initial Exploration**: The `News.csv` dataset is loaded into a pandas DataFrame. Unnecessary columns (`title`, `subject`, `date`) are dropped.
+3.  **Data Cleaning & Preprocessing**:
     * The dataset is shuffled to ensure randomness.
     * A custom function cleans the text of each news article by removing punctuation, converting all text to lowercase, and filtering out common English stopwords.
-3.  **Data Visualization**: Key insights are visualized, including the distribution of real vs. fake news articles and a bar chart of the most frequently used words in the corpus.
-4.  **Feature Extraction**: The cleaned text data is converted into a numerical format using the **TF-IDF (Term Frequency-Inverse Document Frequency)** vectorization technique.
-5.  **Model Training**: The dataset is split into training (75%) and testing (25%) sets. Two models are trained on this data:
+4.  **Data Visualization**: Key insights are visualized, including the distribution of real vs. fake news articles and a bar chart of the most frequently used words in the corpus.
+5.  **Feature Extraction**: The cleaned text data is converted into a numerical format using the **TF-IDF (Term Frequency-Inverse Document Frequency)** vectorization technique.
+6.  **Model Training**: The dataset is split into training (75%) and testing (25%) sets. Two models are trained on this data:
     * **Logistic Regression**
     * **Decision Tree Classifier**
-6.  **Model Evaluation**: The performance of both models is evaluated on the training and testing sets using the **accuracy score**. A **confusion matrix** is also generated for the Decision Tree model to visualize its performance in detail.
+7.  **Model Evaluation**: The performance of both models is evaluated on the training and testing sets using the **accuracy score**. A **confusion matrix** is also generated for the Decision Tree model to visualize its performance in detail.
 
 ## 💾 Dataset
 The project uses the `News.csv` dataset, which contains news articles labeled as either real or fake. The primary columns used for this analysis are:
