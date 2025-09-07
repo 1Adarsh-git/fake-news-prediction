@@ -90,11 +90,11 @@ python3 main.py
 The script evaluates two models and prints their accuracy on the training and test data. The output will look similar to this:
 
   * **Logistic Regression Accuracy**:
-      * Training Accuracy: `XX.XX%`
-      * Test Accuracy: `XX.XX%`
+      * Training Accuracy: `0.993`
+      * Test Accuracy: `0.989`
   * **Decision Tree Accuracy**:
-      * Training Accuracy: `XX.XX%`
-      * Test Accuracy: `XX.XX%`
+      * Training Accuracy: `0.999`
+      * Test Accuracy: `0.995`
 
 Additionally, a confusion matrix is displayed for the Decision Tree model, providing a clear view of its true positives, true negatives, false positives, and false negatives.
 
